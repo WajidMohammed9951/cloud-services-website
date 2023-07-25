@@ -1,9 +1,11 @@
-
+import GreenBtn from "./Components/GreenBtn";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="text-8xl">
-     <h1>dfojof</h1>
+    <div >
+     <Navbar/>
+     <GreenBtn/>
     </div>
   );
 }
