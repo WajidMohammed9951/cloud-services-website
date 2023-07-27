@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="w-screen h-20 z-20 fixed bg-gray-900 text-white">
             <div className="px-3 flex items-center justify-between w-full h-full">
                 <div className="flex items-center">
-                    <h1 className="text-4xl font-bold">onnn</h1>
+                    <h1 className="text-4xl font-bold">cnnn</h1>
                 </div>
 
                 <ul className="hidden md:flex">
@@ -49,7 +49,8 @@ const Navbar = () => {
                             key={id}
                             className="capitalize p-4 cursor-pointer hover:text-lightColor duration-200"
                         >
-                            {link}
+                            
+                    {link}
 
                         </li>
                     ))}
@@ -108,23 +109,22 @@ const Navbar = () => {
                                     key={id}
                                     className=" py-4 text-2xl tracking-wider cursor-pointer"
                                 >
-
                                     {link}
                                 </li>
                             ))}
                         </ul>
 
                         <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                            <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
+                            <div className="flex items-center justify-center rounded-md shadow-md shadow-green-600 p-3 cursor-pointer">
                                 <FaFacebook size={25} />
                             </div>
-                            <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
+                            <div className="flex items-center justify-center rounded-md shadow-md shadow-green-600 p-3 cursor-pointer">
                                 <FaTwitter size={25} />
                             </div>
-                            <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
+                            <div className="flex items-center justify-center rounded-md shadow-md shadow-green-600 p-3 cursor-pointer">
                                 <FaLinkedinIn size={25} />
                             </div>
-                            <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
+                            <div className="flex items-center justify-center rounded-md shadow-md shadow-green-600 p-3 cursor-pointer">
                                 <FaTwitch size={25} />
                             </div>
                         </div>

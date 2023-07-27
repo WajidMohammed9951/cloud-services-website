@@ -4,7 +4,7 @@ const GreenBtn = ({ title, onClick, className }) => {
   return (
     <button
       className={
-        "border bg-lightColor text-darkColor border-lightColor hover:bg-transparent hover:text-lightColor rounded-md duration-300 ease-out" +
+        "border bg-green-600 text-darkColor border-lightColor hover:bg-transparent hover:text-lightColor rounded-md duration-300 ease-out" +
         " " +
         className
       }
