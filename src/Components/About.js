@@ -38,7 +38,7 @@ const About = () => {
           <p className="text-xl font-light text-gray-500 py-8">
             Door with mien stepped perched we name into youhere, i much both by
             this thy flung. Visiter that ember what than, doubting shall
-            evermore him wrought prophet heard evermore. Tapping i form many
+             him wrought prophet heard evermore. Tapping i form many
             melancholy thereat.
           </p>
         </div>
